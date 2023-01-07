@@ -7,7 +7,7 @@ export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full bg-purple-500 shadow">
+        <nav className="w-full bg-gray-700 shadow">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
@@ -58,18 +58,18 @@ export default function NavBar() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center space-y-5 md:flex md:space-x-6 md:py-5">
-                            <li className="text-white hover:text-indigo-200 pt-5">
+                        <ul className="items-center justify-center md:flex md:space-x-6 md:py-5">
+                            <li className="text-white hover:text-indigo-200">
                                 <a href="javascript:void(0)">Home</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
                                 <a href="javascript:void(0)">Blog</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">About US</a>
+                                <a href="javascript:void(0)">About Us</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact US</a>
+                                <a href="javascript:void(0)">Contact Us</a>
                             </li>
                         </ul>
 
