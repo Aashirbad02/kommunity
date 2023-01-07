@@ -6,7 +6,7 @@ export default function Hero() {
       <div className="hero h-screen bg-gray-900 text-slate-50 w-full">
         <div className="hero-content flex-col lg:flex-row-reverse h-max opacity-100">
           <img
-            src="https://img.freepik.com/free-vector/clothing-donation-concept-flat-hand-drawn_52683-55267.jpg?w=900&t=st=1673093968~exp=1673094568~hmac=5bbdf20ec031df4947f04f68ee088ba0901f51f8456581dbdf674bbd9248358c"
+            src="https://images.pexels.com/photos/3856026/pexels-photo-3856026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div className="text-center">
