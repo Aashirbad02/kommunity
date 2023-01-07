@@ -6,12 +6,12 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-purple-500 shadow">
+    <nav className="w-full bg-gray-800 shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-3 md:block">
-            <a href="#">
-              <h2 className="text-2xl font-bold text-white">LOGO</h2>
+            <a href="javascript:void(0)">
+              <h2 className="text-2xl font-bold text-white">DonateIt</h2>
             </a>
             <div className="md:hidden">
               <button
@@ -57,30 +57,30 @@ export default function NavBar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-5 md:flex md:space-x-6 md:py-5">
-              <li className="text-white hover:text-indigo-200 pt-5">
-                <a href="#">Home</a>
+            <ul className="items-center justify-center md:flex md:space-x-6 md:py-5">
+              <li className="text-white hover:text-indigo-200">
+                <a href="javascript:void(0)">Home</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="#">Blog</a>
+                <a href="javascript:void(0)">Blog</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="#">About US</a>
+                <a href="javascript:void(0)">About Us</a>
               </li>
               <li className="text-white hover:text-indigo-200">
-                <a href="#">Contact US</a>
+                <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
 
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
-                href="#"
+                href="javascript:void(0)"
                 className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 md:hidden"
               >
                 Sign in
               </a>
               <a
-                href="#"
+                href="javascript:void(0)"
                 className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100 md:hidden"
               >
                 Sign up
@@ -90,13 +90,13 @@ export default function NavBar() {
         </div>
         <div className="hidden space-x-2 md:inline-block">
           <a
-            href="#"
+            href="javascript:void(0)"
             className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
           >
             Sign in
           </a>
           <a
-            href="#"
+            href="javascript:void(0)"
             className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
           >
             Sign up

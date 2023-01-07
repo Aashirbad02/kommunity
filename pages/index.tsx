@@ -3,6 +3,7 @@ import { Inter } from "@next/font/google";
 import Navbar from "../Components/Navbar";
 import List from "../Components/List";
 import "regenerator-runtime/runtime";
+import Hero from "../Components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <List />
+      <Hero />
     </>
   );
 }
